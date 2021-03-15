@@ -1,1 +1,41 @@
 /** CSS STYLE **/
+:root {
+  --white: #ffffff;
+  --light: #f5f4f0;
+  --dark50: #908d8b;
+  --dark: #2a2626;
+  --brown: #b09a81;
+  --primary: #fe8a02;
+  --primaryDark: #42413c;
+  --white50: #d7ccc0;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/OpenSans-Regular.ttf") format(truetype);
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2a2626;
+}
+
+h1, h2, h3 {
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+section, article {
+  max-width: 1110px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
